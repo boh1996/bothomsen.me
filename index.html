@@ -19,7 +19,8 @@
 	<link href="css/style.css" rel="stylesheet" media="screen">
 	
 	<script src="js/modernizr.custom.js"></script>
-	   
+	  
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 
@@ -34,17 +35,54 @@
 	<section id="home" class="pfblock-image screen-height">
 		<div class="home-overlay"></div>
 		<div class="intro">
-			<div class="start">Hello, my name is Bo Thomsen and I am</div>
-			<h1>Full Stack Developer</h1>
-			<div class="start">creating rich and modern applications</div>
+			<div class="start">
+				Hello, my name is Bo Thomsen and I am
+			</div>
+			<h1>
+				Full Stack Developer
+			</h1>
+			<div class="start">
+				creating rich and modern applications
+			</div>
+
+			<nav>
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/boh1996" class="icon fa fa-facebook">
+							<span class="label">Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/bohansthomsen" class="icon fa fa-twitter">
+							<span class="label">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/+BoThomsen" class="icon fa fa-google-plus">
+							<span class="label">Google+</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://dk.linkedin.com/in/bothomsen" class="icon fa fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/boh1996" class="icon fa fa-github">
+							<span class="label">Github	</span>
+						</a>
+					</li>
+					<li><a href="mailto:boh1996@gmail" class="icon fa fa-envelope-o" target="_blank"><span class="label">Email</span></a></li>
+				</ul>
+			</nav>
 		</div>
 
-		<a href="#services">
-		<div class="scroll-down">
-			<span>
-				<i class="fa fa-angle-down fa-2x"></i>
-			</span>
-		</div>
+		<a href="#me">
+			<div class="scroll-down">
+				<span>
+					<i class="fa fa-angle-down fa-2x"></i>
+				</span>
+			</div>
 		</a>
 
 	</section>
@@ -72,6 +110,7 @@
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
+						<li><a href="#me">Me</a></li>
 						<li><a href="#services">Services</a></li>
 						<li><a href="#portfolio">Works</a></li>
 						<li><a href="#skills">Skills</a></li>
@@ -86,6 +125,29 @@
 	</header>
 
 	<!-- Navigation end -->
+
+	<section class="pfblock pfblock-gray" id="me">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">This is who I am</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							<!---->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<img src="images/bothomsen.jpg" width="300" class="img-circle img-responsive center">
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- Services start -->
 
@@ -193,7 +255,7 @@
 						<h2 class="pfblock-title">My works</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+							This is the front-end work i've been doing, to check out the rest of it, and the things i've been creating that doesn't feature a nice UI, check my <a href="http://github.com/boh1996" target="_blank">github</a>
 						</div>
 					</div>
 
@@ -208,10 +270,10 @@
 					
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
-							<img src="images/item-1.jpg" alt="img01"/>
+							<img src="images/fmu.png" alt="FindMusikundervisning.dk"/>
 							<figcaption>
-								<h2>Crazy <span>Shark</span></h2>
-								<p>Lily likes to play with crayons and pencils</p>
+								<h2>Find <span>Musikundervisning</span></h2>
+								<p>Music teacher search engine</p>
 							</figcaption>			
 						</figure>
 					</div>
@@ -222,10 +284,10 @@
 			
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
-							<img src="images/item-2.jpg" alt="img01"/>
+							<img src="images/madrid.png" alt="Studietur Madrid"/>
 							<figcaption>
-								<h2>Funny <span>Tortoise</span></h2>
-								<p>Lily likes to play with crayons and pencils</p>
+								<h2>Studietur <span>Madrid</span></h2>
+								<p>IT / Communication project on trips to madrid</p>
 							</figcaption>			
 						</figure>
 					</div>
@@ -236,58 +298,15 @@
 			
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
-							<img src="images/item-3.jpg" alt="img01"/>
+							<img src="images/illution.png" alt="Illution.dk"/>
 							<figcaption>
-								<h2>The <span>Hat</span></h2>
-								<p>Lily likes to play with crayons and pencils</p>
+								<h2><span>Illution</span></h2>
+								<p>Illution.dk website</p>
 							</figcaption>			
 						</figure>
 					</div>
 					
 				</div>
-				
-				<div class="col-xs-12 col-sm-4 col-md-4">
-			
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/item-4.jpg" alt="img01"/>
-							<figcaption>
-								<h2>Bang <span>Bang</span></h2>
-								<p>Lily likes to play with crayons and pencils</p>
-							</figcaption>			
-						</figure>
-					</div>
-					
-				</div>
-				
-				<div class="col-xs-12 col-sm-4 col-md-4">
-			
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/item-5.jpg" alt="img01"/>
-							<figcaption>
-								<h2>Crypton <span>Dude</span></h2>
-								<p>Lily likes to play with crayons and pencils</p>
-							</figcaption>			
-						</figure>
-					</div>
-					
-				</div>
-				
-				<div class="col-xs-12 col-sm-4 col-md-4">
-			
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/item-6.jpg" alt="img01"/>
-							<figcaption>
-								<h2>Don't <span>Poke</span></h2>
-								<p>Lily likes to play with crayons and pencils</p>
-							</figcaption>			
-						</figure>
-					</div>
-					
-				</div>
-				
 			</div>
 
 
@@ -498,11 +517,31 @@
 				<div class="col-sm-12">
 
 					<ul class="social-links">
-						<li><a href="https://www.facebook.com/boh1996" class="wow fadeInUp facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/bohansthomsen" class="wow fadeInUp twitter" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://plus.google.com/+BoThomsen" class="wow fadeInUp google-plus" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="https://www.linkedin.com/profile/view?id=76775150" class="wow fadeInUp linkedin" data-wow-delay=".4s"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="mailto:boh1996@gmail.com" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+						<li>
+							<a href="https://www.facebook.com/boh1996" class="wow fadeInUp facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/bohansthomsen" class="wow fadeInUp twitter" data-wow-delay=".1s">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://plus.google.com/+BoThomsen" class="wow fadeInUp google-plus" data-wow-delay=".2s">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/profile/view?id=76775150" class="wow fadeInUp linkedin" data-wow-delay=".4s">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:boh1996@gmail.com" class="wow fadeInUp" data-wow-delay=".5s">
+								<i class="fa fa-envelope"></i>
+							</a>
+						</li>
 					</ul>
 
 					<p class="copyright">

@@ -4,11 +4,11 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-bottom"
+				"marg",
+				"margin-right"
 			],
 			[
-				"marg",
+				"mar",
 				"margin-bottom"
 			],
 			[
@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 15148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 18058,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -605,10 +621,13 @@
 	},
 	"expanded_folders":
 	[
-		"/R/bothomsen.me"
+		"/R/bothomsen.me",
+		"/R/bothomsen.me/css",
+		"/R/bothomsen.me/js"
 	],
 	"file_history":
 	[
+		"/R/bothomsen.me/css/style.css",
 		"/R/MiaArbejdsfordeling/css/layout.css",
 		"/R/MiaArbejdsfordeling/less/style.less",
 		"/R/MiaArbejdsfordeling/index.html",
@@ -735,12 +754,11 @@
 		"/R/FindMusikundervisning.dk/application/controllers/Messages.php",
 		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt/node_modules/glob/examples/usr-local.js",
 		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/update-livereload",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/node_modules/npm-registry-client/test/adduser-update.js",
-		"/R/FindMusikundervisning.dk/application/views/messages_view.php"
+		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/node_modules/npm-registry-client/test/adduser-update.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -767,6 +785,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".center",
+			"icon",
+			"twitter",
+			"facebook",
+			"assets",
+			"assets'",
+			"assets",
+			"assets/",
 			"arrow_box",
 			"action-menu",
 			"background",
@@ -886,15 +912,7 @@
 			"<span class=\"label label-warning\">",
 			"6 pull-right",
 			"12",
-			"strong",
-			"profile-description-container",
-			"col-md-4",
-			"<br>",
-			"Pris",
-			"rootwizard",
-			"50",
-			".about-person-container",
-			".75"
+			"strong"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1038,8 +1056,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2864,
+								2864
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1586.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18007,
+								18013
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17877.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
