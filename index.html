@@ -6,6 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="Bo Thomsen">
 	<meta content="favicon.ico" itemprop="image">
+	<link rel="shortcut icon" href="favicon.ico?v=2" />
 
 	<title>Bo Thomsen</title>
 
@@ -20,7 +21,11 @@
 	
 	<script src="js/modernizr.custom.js"></script>
 	  
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script>
+		if ( location.host.indexOf("bothomsen") == -1 ) {
+			document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+		}
+	</script>
 </head>
 <body>
 
@@ -135,15 +140,20 @@
 						<h2 class="pfblock-title">This is who I am</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							<!---->
+							I turn <i class="fa fa-coffee"></i> into <i class="fa fa-code"></i>
+							<br>
+							Selftaught developer from <i class="fa fa-map-marker"></i> Copenhagen, Denmark,
+							with an interest in <i class="fa fa-gamepad"></i> Game Development, <i class=" icon-layers"></i> backend coding, <i class="fa fa-sort-numeric-desc"></i> machine learning and large scale <i class="fa fa-database"></i> data collection and analytics.
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<img src="images/bothomsen.jpg" width="300" class="img-circle img-responsive center">
+				<div class="col-sm-6 col-sm-offset-3 wow slideInLeft">
+					<div class="me-img-container">
+						<img src="images/bothomsen.jpg" class="img-circle img-responsive center me-image">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -332,7 +342,7 @@
 								<h2 class="pfblock-title">My Skills</h2>
 								<div class="pfblock-line"></div>
 								<div class="pfblock-subtitle">
-									Learning new skills and mastering the old, trying to tackle small and large problems to create services that matters, is what drives me through the day.
+									Learning new skills and mastering the old, trying to tackle small and large problems to create services that matters, is what drives me.
 								</div>
 							</div>
 
