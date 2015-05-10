@@ -1,0 +1,16 @@
+/* TEAM */
+
+	Web designer and Developer: Bo Thomsen
+	Email: boh1996@gmail.com
+	Google+: https://plus.google.com/114961707201712691377
+	LinkedIn: http://www.linkedin.com/in/bothomsen
+	Twitter: https://twitter.com/bohansthomsen
+	Github: https://github.com/boh1996
+	From: Copenhagen, Denmark
+
+/* SITE */
+	Last updated: 2015/05/10
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text 2
+	Technologies: jQuery, Bootstrap, History.js, Font-Awesome
