@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"desc",
+				"description"
+			],
+			[
 				"marg",
 				"margin-right"
 			],
@@ -510,10 +514,6 @@
 			[
 				"border-",
 				"border-radius"
-			],
-			[
-				"fun",
-				"function"
 			]
 		]
 	},
@@ -523,40 +523,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15447,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/R/Illution-Website/Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 1269,
+				"buffer_size": 19986,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sitemap.xml",
-			"settings":
-			{
-				"buffer_size": 580,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 1277,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 26352,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -645,15 +613,17 @@
 	},
 	"expanded_folders":
 	[
-		"/R/bothomsen.me",
-		"/R/bothomsen.me/css",
-		"/R/bothomsen.me/fonts",
-		"/R/bothomsen.me/js"
+		"/R/bothomsen.me"
 	],
 	"file_history":
 	[
-		"/R/Illution-Website/sitemap.xml",
+		"/R/bothomsen.me/package.json",
+		"/C/Users/Bo/Downloads/6cc092c0a8b31e2bee9755457aae0bfe.ico/browserconfig.xml",
+		"/R/bothomsen.me/sitemap.xml",
 		"/R/bothomsen.me/css/style.css",
+		"/R/bothomsen.me/Gruntfile.js",
+		"/R/Illution-Website/Gruntfile.js",
+		"/R/Illution-Website/sitemap.xml",
 		"/R/MiaArbejdsfordeling/css/layout.css",
 		"/R/MiaArbejdsfordeling/less/style.less",
 		"/R/MiaArbejdsfordeling/index.html",
@@ -774,12 +744,7 @@
 		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/eucjp.json",
 		"/R/FindMusikundervisning.dk/assets/bootstrap/grunt/configBridge.json",
 		"/R/FindMusikundervisning.dk/prototype/bootstrap/docs/robots.txt",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-html-validation/node_modules/request/node_modules/oauth-sign/test.js",
-		"/R/FindMusikundervisning.dk/prototype/login.html",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-jscs/node_modules/jscs/lib/rules/disallow-padding-newlines-in-blocks.js",
-		"/R/FindMusikundervisning.dk/application/controllers/Messages.php",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt/node_modules/glob/examples/usr-local.js",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/update-livereload"
+		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-html-validation/node_modules/request/node_modules/oauth-sign/test.js"
 	],
 	"find":
 	{
@@ -810,6 +775,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"”",
 			"item",
 			"3.75",
 			"3.5",
@@ -936,8 +902,7 @@
 			"instruments",
 			" ",
 			"custom",
-			"right",
-			"email"
+			"right"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1081,7 +1046,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1090,15 +1055,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15447,
+						"buffer_size": 19986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7414,
-								7414
+								5116,
+								5116
 							]
 						],
 						"settings":
@@ -1110,138 +1075,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/R/Illution-Website/Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 648.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sitemap.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								562,
-								562
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1270,
-								1270
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 87.0,
-						"translation.y": 0.0,
+						"translation.y": 1476.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4960,
-								4960
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5065.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
