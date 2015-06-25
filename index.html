@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Person">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head profile="http://www.w3.org/2005/10/profile">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Personal website for developer Bo Thomsen, based in Copenhagen, Denmark">
 	<meta name="author" content="Bo Thomsen">
-	<meta content="favicon.ico" itemprop="image">
-	<link rel="shortcut icon" href="favicon.ico?v=2" />
 	<link rel="icon" type="image/png" href="http://bothomsen.me/images/bothomsen.png">
 	<link rel="author" href="https://plus.google.com/+BoThomsen"/>
 	<link rel="publisher" href="https://plus.google.com/+BoThomsen"/>
+	<link rel="shortcut icon" href="http://bothomsen.me/images/bothomsen.png" />
+	<meta name="msvalidate.01" content="5A63DDD0C92FA20160223F8DB45B440D" />
 
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -30,11 +30,6 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<title>Bo Thomsen - Programmer from Copenhagen</title>
-
-	<!-- Schema.org -->
-	<meta itemprop="name" content="Bo Thomsen">
-	<meta itemprop="description" content="Personal website for developer Bo Thomsen, based in Copenhagen, Denmark">
-	<meta itemprop="image" content="http://bothomsen.me/images/bothomsen.png">
 
 	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary">
@@ -88,10 +83,22 @@
 		    "name" : "Bo Thomsen",
 		    "url" : "http://bothomsen.me",
 		    "additionalName" : "Hans",
+		    "alternateName" : "boh1996",
 		    "birthDate" : "1996-03-16",
 		    "email" : "boh1996@gmail.com",
 		    "jobTitle" : "Programmer",
-		    "nationality" : "DK",
+		    "nationality" : {
+		    	"@type" : "Country",
+		    	"name" : "Denmark",
+		    	"sameAs" : ["https://en.wikipedia.org/wiki/Denmark", "https://da.wikipedia.org/wiki/Danmark"]
+		    },
+		    "parent" : [{
+		    	"@type" : "Person",
+		    	"name" : "John Thomsen"
+		    },{
+		    	"@type" : "Person",
+		    	"name" : "Birgit Hansen"
+		    }],
 		    "image" : "http://bothomsen.me/images/bothomsen.png",
 		    "sameAs" : [
 		  		"https://www.facebook.com/boh1996",
@@ -105,13 +112,81 @@
 		      	"https://www.tumblr.com/blog/boh1996",
 		      	"https://soundcloud.com/boh1996",
 		      	"https://myspace.com/bohansthomsen"
-		    ] 
+		    ],
+		    "knows" : [{
+		    	"@type" : "Person",
+		    	"name" : "Frederik Lassen",
+		    	"url" : "https://frederik.me/",
+		    	"sameAs" : [
+		    		"https://dk.linkedin.com/in/fredefl",
+		    		"https://www.linkedin.com/profile/view?id=85979061",
+		    		"https://www.linkedin.com/in/fredefl",
+		    		"https://twitter.com/fredefl",
+		    		"https://github.com/fredefl"
+		    	]
+		    }],
+		    "alumniOf" : [{
+		    	"@type" : "HighSchool",
+		    	"url" : "htxsukkertoppen.dk",
+		    	"sameAs" : "http://www.kts.dk/htx/htxsukkertoppen.asp",
+		    	"name" : "HTX Sukkertoppen",
+		    	"logo" : "http://www.kts.dk/pics/htx_logo_560.jpg"
+		    },
+		    {
+		    	"@type" : "ElementarySchool",
+		    	"url" : "http://www.gvs.kk.dk",
+		    	"sameAs" : "http://gvs.skoleporten.dk/",
+		    	"name" : "Grøndalsvængets Skole"
+		    }]
 		},
 		{  "@context" : "http://schema.org",
 	       "@type" : "WebSite",
+	       "image" : "http://bothomsen.me/images/bothomsen.png",
 	       "name" : "Bo Thomsen",
 	       "alternateName" : "Personal website of Bo Thomsen",
-	       "url" : "http://bothomsen.me"
+	       "url" : "http://bothomsen.me",
+	       "description" : "Personal website for developer Bo Thomsen, based in Copenhagen, Denmark",
+	       "dateCreated" : "2015-06-20",
+	       "dateModified" : "2015-06-25",
+	       "datePublished" : "2015-06-20",
+	       "sameAs" : [
+		  		"https://www.facebook.com/boh1996",
+		     	"https://twitter.com/bohansthomsen",
+		      	"https://www.linkedin.com/in/bothomsen",
+		      	"https://plus.google.com/+BoThomsen",
+		      	"https://github.com/boh1996",
+		      	"https://instagram.com/boh1996/",
+		      	"https://www.youtube.com/channel/UC1w1orn70ZKyJeCAUV0otTg",
+		      	"https://www.pinterest.com/boh1996/",
+		      	"https://www.tumblr.com/blog/boh1996",
+		      	"https://soundcloud.com/boh1996",
+		      	"https://myspace.com/bohansthomsen"
+		    ],
+	       "creator" : {
+	       		"@type" : "Person",
+	       		"sameAs" : ["http://bothomsen.me", "https://plus.google.com/+BoThomsen"],
+	       		"name" : "Bo Thomsen",
+	       		"url" : "http://bothomsen.me"
+	       },
+	       "author" : {
+	       		"@type" : "Person",
+	       		"sameAs" : ["http://bothomsen.me", "https://plus.google.com/+BoThomsen"],
+	       		"name" : "Bo Thomsen",
+	       		"url" : "http://bothomsen.me"
+	       },
+	       "copyrightYear" : "2015",
+	       "copyrightHolder" : {
+	       		"@type" : "Person",
+	       		"sameAs" : ["http://bothomsen.me", "https://plus.google.com/+BoThomsen"],
+	       		"name" : "Bo Thomsen",
+	       		"url" : "http://bothomsen.me"
+	       },
+	       "about" : {
+	       		"@type" : "Person",
+	       		"sameAs" : ["http://bothomsen.me", "https://plus.google.com/+BoThomsen"],
+	       		"name" : "Bo Thomsen",
+	       		"url" : "http://bothomsen.me"
+	       }
 	    }
 		]
 	</script>
