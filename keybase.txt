@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/boh1996
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bothomsen.me
+  * I am boh1996 (https://keybase.io/boh1996) on keybase.
+  * I have a public key with fingerprint 2AE7 7832 ABB3 4968 0B3F  BCE4 7926 FBAD 9900 EB3C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016b179dce08b790d9fbe66ad0ba86e8055d50b16855779178736bb036cbfe42420a",
+            "fingerprint": "2ae77832abb349680b3fbce47926fbad9900eb3c",
+            "host": "keybase.io",
+            "key_id": "7926fbad9900eb3c",
+            "kid": "01016b179dce08b790d9fbe66ad0ba86e8055d50b16855779178736bb036cbfe42420a",
+            "uid": "67d2a6a3cfbb9d9698c5b20c0d68aa19",
+            "username": "boh1996"
+        },
+        "service": {
+            "hostname": "bothomsen.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447877537,
+    "expire_in": 157680000,
+    "prev": "9b0c63bf94e7ab26d5e909a0ff60b4f33a9c1e0e553eb31d1a679ea92524291e",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBVBGD6adhGSEBPsQrESEh1k9jazc6QrZGQSEicJsg4zu7PHRc/u
+6ex6w8I4dJMMohK6PaSZiFFEBUKh1eFgZFg9lFE+FEEXX3zoTmU2K9VTj83L8P/z
+fd98/8efnjsjkJPR+Kpg8dssoTfj/p2O+kBVxVhni0Ado1kItQi1bPpidQZzvUit
+ZQghAYhAhFRE2NAZ0CjCwMAmZRASA1CiQaYBVTVUQEWoqSpCWEQakiGlQIY6NZki
+KRIgQlAwLTvKEvGEZXtcViIMIU2WCKWygqEGqGxSnSkIS9CkxMAYAEZlnRNrHNdn
+cHOUuKzEcniPF5Fpe//A/2ff9dNyEBkSgUTWTUqxgSHWdJVKQAcG1AgRsQ90WcIm
+McbR1KkRMYbCnqDAmw2Wzvxc/UH+ArwaJ+Yyu4SXQSGecDxHd+r4S43nxUM+0WuO
++8hGRiO/NSLUsg2eIic0sIRrObYQEjlS9yxfVFQUPgJSZRQUWFPcSrCI5SNUxOPl
+x/+GNXBJTIEOZWpihSFCJWioDANMgGlCQBVTlgnWRQaYqso8UtEQCUSYESypPBMs
++oZdtst2hJDKbZIol3StqE28+gQT9qRuV2cFMnICM7Mz/e0K5MyZ92fnHnyZNZmf
+dej4wtJ14dHG2PDz76f2F6Q7kpPuy+29uX0LNk7e2/qp/XXjo7X7FVSayp2/6MfA
+ncv9qanr2ZUtaoNQ3WmO7lgz9TG868qKzd+WXNKenqPXinvKetNPCh+fnvO5JO0t
+P5lb0Z+aaOmpjPXhwdSBjRPImCyqzTiWHLo1dsPboj6Mi/Z40yt2t3TD+fK8GwX6
+hF5ftnpdMW278LNyVV9rx/zCzPwzb2fs2zl0+MXx3UPJtbG9TR+G2t6NjL/JXjA4
+fCD4/knBiSNXUVXR0byvPzs/KZtaoyMWqFb6nZ093eH2g6mLN52V48/CXa3lvUsf
+JrctXRbecXaqe2HV+tle18AvcllCeg==
+=uQtI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/boh1996
+
+==================================================================

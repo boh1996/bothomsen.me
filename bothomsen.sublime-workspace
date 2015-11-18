@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 19986,
+				"buffer_size": 22737,
 				"line_ending": "Windows"
 			}
 		}
@@ -535,25 +535,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "Package Control: ",
+		"height": 380.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
 			[
-				"Package Control: ",
+				"insta",
 				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
 			],
 			[
 				"instal",
 				"Package Control: Install Package"
 			],
 			[
-				"anaconda",
-				"Anaconda: Vagrant Init"
+				"Package Control: ",
+				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
+				"anaconda",
+				"Anaconda: Vagrant Init"
 			],
 			[
 				"Package Control: Re",
@@ -592,7 +600,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -617,10 +625,12 @@
 	],
 	"file_history":
 	[
+		"/R/bothomsen.me/css/style.css",
+		"/C/Users/Bo/Downloads/calendar",
+		"/R/bothomsen.me/index.html",
 		"/R/bothomsen.me/package.json",
 		"/C/Users/Bo/Downloads/6cc092c0a8b31e2bee9755457aae0bfe.ico/browserconfig.xml",
 		"/R/bothomsen.me/sitemap.xml",
-		"/R/bothomsen.me/css/style.css",
 		"/R/bothomsen.me/Gruntfile.js",
 		"/R/Illution-Website/Gruntfile.js",
 		"/R/Illution-Website/sitemap.xml",
@@ -742,9 +752,7 @@
 		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/doc/cli/npm-test.md",
 		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/test/tap/config-builtin.js",
 		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/eucjp.json",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/grunt/configBridge.json",
-		"/R/FindMusikundervisning.dk/prototype/bootstrap/docs/robots.txt",
-		"/R/FindMusikundervisning.dk/assets/bootstrap/node_modules/grunt-html-validation/node_modules/request/node_modules/oauth-sign/test.js"
+		"/R/FindMusikundervisning.dk/assets/bootstrap/grunt/configBridge.json"
 	],
 	"find":
 	{
@@ -1055,19 +1063,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19986,
+						"buffer_size": 22737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5116,
-								5116
+								15340,
+								15340
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1075,7 +1084,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1476.0,
+						"translation.y": 8437.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1152,6 +1161,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				".css",
+				"css\\style.css"
+			],
 			[
 				"for_v",
 				"application\\views\\forgot_password_view.php"
@@ -1659,10 +1672,6 @@
 			[
 				"about.css",
 				"assets\\css\\about.css"
-			],
-			[
-				"pro.js",
-				"assets\\js\\profile.js"
 			]
 		],
 		"width": 0.0
